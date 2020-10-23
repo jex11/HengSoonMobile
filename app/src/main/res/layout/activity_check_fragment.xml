@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Size"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"/>
+    <include layout="@layout/tyre_size_radiobutton"/>
+    <Spinner
+        android:id="@+id/sizes_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"/>
+    <ProgressBar
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressDisplayBar"
+        android:progressDrawable="@drawable/circular_progress_bar"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tyrelist_view">
+
+    </ListView>
+</LinearLayout>

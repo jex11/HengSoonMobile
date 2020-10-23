@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_bob"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.hengsoonmobile.MainActivity">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tyrelist_holder">
+
+    </ListView>
+    <View
+        android:background="@android:drawable/divider_horizontal_bright"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tyrelist_holder" />
+
+
+</RelativeLayout>

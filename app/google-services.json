@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "429435908767",
+    "firebase_url": "https://heng-soon-mobile.firebaseio.com",
+    "project_id": "heng-soon-mobile",
+    "storage_bucket": "heng-soon-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429435908767:android:fac68f46068489d2",
+        "android_client_info": {
+          "package_name": "com.example.hengsoonmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "429435908767-ge392ejg33mfrr2k6bpqfn76mm2ms5o1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hengsoonmobile",
+            "certificate_hash": "3FADB0CB8BF06FADAC2E063CE44B09C3E1A81A70"
+          }
+        },
+        {
+          "client_id": "429435908767-u0ec0nnemht03539cdpt6774g7tpftau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZzh8BMKVRW8DNW04k4eWCezsjAymSrCM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "429435908767-u0ec0nnemht03539cdpt6774g7tpftau.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
